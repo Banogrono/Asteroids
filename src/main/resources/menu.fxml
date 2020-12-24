@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.asteroids.controllers.Controller">
+   <center>
+      <Canvas fx:id="canvas" height="696.0" width="1280.0" />
+   </center>
+   <top>
+      <Label fx:id="scoreLabel" alignment="TOP_LEFT" text="Score: " textFill="#e1e1e1" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>
